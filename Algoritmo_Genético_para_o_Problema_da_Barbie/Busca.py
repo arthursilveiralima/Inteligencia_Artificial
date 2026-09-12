@@ -1,5 +1,5 @@
 import heapq
-from mapa import eh_posicao_valida
+from Mapa import eh_posicao_valida
 
 def heuristica_manhattan(a, b):
     """Calcula a distância de Manhattan (movimentos ortogonais na grade)."""
